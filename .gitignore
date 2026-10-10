@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private project data
+data/private/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend
+node_modules/
+dist/
+
+# Local databases
+*.db
